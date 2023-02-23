@@ -2,7 +2,6 @@ import { Component } from '@angular/core';
 import { CustomerModel } from './customer.model';
 
 @Component({
-  selector: 'app-root',
   templateUrl: './customer.component.html',
   styleUrls: ['./customer.component.css']
 })

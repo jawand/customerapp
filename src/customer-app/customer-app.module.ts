@@ -4,10 +4,16 @@ import { BrowserModule } from '@angular/platform-browser';
 
 import { AppRoutingModule } from './app-routing.module';
 import { CustomerComponent } from './customer/customer.component';
+import { HomeComponent } from './home/home.component';
+import { MainComponent } from './main/main.component';
+import { SupplierComponent } from './supplier/supplier.component';
 
 @NgModule({
   declarations: [
-    CustomerComponent
+    CustomerComponent,
+    HomeComponent,
+    MainComponent,
+    SupplierComponent
   ],
   imports: [
     BrowserModule,
@@ -15,6 +21,6 @@ import { CustomerComponent } from './customer/customer.component';
     FormsModule
   ],
   providers: [],
-  bootstrap: [CustomerComponent]
+  bootstrap: [MainComponent]
 })
 export class AppModule { }
