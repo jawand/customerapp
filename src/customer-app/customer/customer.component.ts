@@ -30,4 +30,8 @@ export class CustomerComponent {
       .controls[controlName]
       .hasError(typeofValidator);
   }
+
+  SelectedCustomer(_selected: CustomerModel) {
+    this.CustomerModel = _selected;
+  }
 }
