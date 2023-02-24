@@ -10,8 +10,15 @@ export class CustomerComponent {
   CustomerModel: CustomerModel = new CustomerModel();
   CustomerModels: Array<CustomerModel> = new Array<CustomerModel>();
 
-  Add() {
+  Add(): void {
     this.CustomerModels.push(this.CustomerModel);
     this.CustomerModel = new CustomerModel();
+  }
+
+  HasError(typeofValidator: string, controlName: string): Boolean {
+    return this.CustomerModel
+      .formCustomerGroup
+      .controls[controlName]
+      .hasError(typeofValidator);
   }
 }

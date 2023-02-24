@@ -1,6 +1,6 @@
 import { CommonModule } from '@angular/common';
 import { NgModule } from '@angular/core';
-import { FormsModule } from '@angular/forms';
+import { FormsModule, ReactiveFormsModule } from '@angular/forms';
 import { CustomerRoutingModule } from '../routing/customer-routing.module';
 
 import { CustomerComponent } from './customer.component';
@@ -12,6 +12,7 @@ import { CustomerComponent } from './customer.component';
   imports: [
     CommonModule,
     FormsModule,
+    ReactiveFormsModule,
     CustomerRoutingModule
   ],
   providers: [],
