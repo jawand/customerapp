@@ -1,0 +1,46 @@
+{
+  "customers": [
+    {
+      "Id": 1,
+      "CustomerCode": "1992",
+      "CustomerName": "Jawand Singh",
+      "CustomerAmount": 20.3
+    },
+    {
+      "CustomerCode": "4333",
+      "CustomerName": "JAWAND SIN",
+      "CustomerAmount": "4343",
+      "Id": 2
+    },
+    {
+      "CustomerCode": "4352",
+      "CustomerName": "FNU Jawand Singh",
+      "CustomerAmount": "343",
+      "Id": 3
+    },
+    {
+      "CustomerCode": "4342",
+      "CustomerName": "Jawand Singh",
+      "CustomerAmount": "432432",
+      "Id": 4
+    },
+    {
+      "CustomerCode": "4352",
+      "CustomerName": "Jake",
+      "CustomerAmount": "904",
+      "Id": 5
+    },
+    {
+      "CustomerCode": "3213",
+      "CustomerName": "Jake",
+      "CustomerAmount": "38920",
+      "Id": 6
+    },
+    {
+      "CustomerCode": "7389",
+      "CustomerName": "Jake",
+      "CustomerAmount": "3829",
+      "Id": 7
+    }
+  ]
+}

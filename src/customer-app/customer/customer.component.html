@@ -26,6 +26,12 @@
     value="Add"
     (click)="Add()"
   />
+  <input
+    [disabled]="Disable"
+    type="button"
+    value="Remote Save"
+    (click)="PostToServer()"
+  />
   <br />
 </form>
 

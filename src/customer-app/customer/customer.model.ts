@@ -5,6 +5,7 @@ import { NgForm, FormGroup, FormControl, Validators, FormBuilder } from "@angula
 // Check -> IsValid, IsDirty
 
 export class CustomerModel {
+    Id: number = 0;
     CustomerCode: string = '';
     CustomerName: string = '';
     CustomerAmount: number = 0;
